@@ -22,8 +22,9 @@ public class Bio {
         System.out.println("GPA: " + gpa);
 
         System.out.print("Enter your favorite number: ");
-        int favoriteNumber = input.nextInt();
-        System.out.println("Favorite Number: " + favoriteNumber);
+        String favNumStr = input.nextLine();
+        int favNum = Integer.parseInt(favNumStr);
+        System.out.println("Favorite Number: " + favNum);
 
 
 
